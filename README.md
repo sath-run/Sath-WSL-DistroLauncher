@@ -1,3 +1,24 @@
+# Build Sath Distro
+## 1. Download this repo
+
+## 2. build rootfs files based on Ubuntu20.04
+### 2.1 Get WSL based on Ubuntu20.04
+
+### 2.2 copy files to WSL (sath related)
+a) install docker
+
+b) copy sath files
+
+### 2.3 export WSL as install.tar.gz file
+
+## 3. Create directory (x64) and copy install.tar.gz file
+
+a) Create directory "x64" in project root directory
+
+b) Copy install.tar.gz file to {{projecct_root}}/x64/
+
+## 4. Build project and get appx package in Visual Studio
+
 # WSL Distro Launcher Reference Implementation
 ## Introduction 
 This is the C++ reference implementation for a Windows Subsystem for Linux (WSL) distribution installer/launcher application. Every distro package must include a launcher app, which is responsible for completing installation & registration of your distro with WSL, and for launching new distro instances atop WSL.
